@@ -4,6 +4,17 @@
 * Change Background color
 * Outline Elements */
 
-* {
-    outline: 1px dotted;
+/* Global */
+
+
+/* Homepage */
+
+.bio {
+    background: aliceblue;
+}
+
+/* Contact */
+
+.contact {
+    background: pink;
 }
