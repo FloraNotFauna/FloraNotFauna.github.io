@@ -4,6 +4,8 @@
 * Change Background color
 * Outline Elements */
 
+/* css grid generator*/
+/* css tricks starters*/
 /* Global */
 h1 {
     font-size: 5em;
@@ -25,4 +27,14 @@ h1 {
 
 .contact {
     background: pink;
+}
+
+/* Portfolio */
+.portfolio {
+  background:lavender;
+}
+figure {
+  background:purple;
+  padding: 1em;
+  width: 200px;
 }
