@@ -8,7 +8,7 @@
 /* css tricks starters*/
 /* Global */
 h1 {
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -53,12 +53,30 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 
 /* Bio */
 .bio {
-    background: aliceblue;
+    background: Black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bio container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bio words {
+  padding: 80px;
+  background: lavenderblush;
+}
+.bio h2, p {
+  font-family: 'Poppins', sans-serif;
+  color: orchid;
 }
 
 /* Contact */
@@ -71,7 +89,6 @@ nav a {
 }
 .contact h1 {
   color: Black;
-  font-size: 2em;
 }
 .contact label {
   font-family: 'Poppins', sans-serif;
