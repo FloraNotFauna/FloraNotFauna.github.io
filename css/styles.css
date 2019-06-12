@@ -79,10 +79,16 @@ nav a {
   padding: 1em;
   width: 80%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 figcaption {
   font-family: 'Poppins', sans-serif;
   color: aliceblue;
+  font-size: 1em;
+  line-height: 1.5em;
   padding: 2em;
 }
 #figureone {
@@ -104,12 +110,8 @@ grid-row-end: 2;
   grid-row-end: 2;
 }
 #figurefour {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -123,5 +125,5 @@ container {
   display:grid;
   width: 95%;
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 25em 25em 25em;
+  grid-template-rows: 20em 20em 20em;
 }
