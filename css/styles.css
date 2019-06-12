@@ -69,32 +69,51 @@ nav a {
 
 /* Portfolio */
 .portfolio {
-  background:lavender;
+  background:pink;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 .portfolio figure {
-  background:purple;
+  background:black;
   padding: 1em;
   width: 80%;
+  overflow: hidden;
+}
+figcaption {
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  padding: 2em;
 }
 #figureone {
-border: 10px solid blue;
 grid-column-start: 1;
 grid-column-end: 2;
 grid-row-start: 1;
 grid-row-end: 2;
 }
 #figuretwo {
-  border: 10px solid blue;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 #figurethree {
-  border: 10px solid blue;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#figurefour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#figurethree {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -102,7 +121,7 @@ grid-row-end: 2;
 }
 container {
   display:grid;
-  width: 100%;
+  width: 95%;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: 25em 25em 25em;
 }
